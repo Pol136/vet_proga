@@ -1,4 +1,3 @@
-import time
 import socket
 import json
 from threading import Thread
@@ -24,6 +23,9 @@ def send_data(data, host, port):
 
 
 if __name__ == '__main__':
+    # host =
+    # port =
+
     while True:
         results = {}
 
@@ -44,6 +46,4 @@ if __name__ == '__main__':
 
         print(results)
 
-        # host =
-        # port = 
         # send_data(results, host, port)
